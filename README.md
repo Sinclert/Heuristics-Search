@@ -7,7 +7,9 @@ In this particular case, the search will be applied to some Warcraft 3 maps writ
 ## How does it work?
 As our search problem is going to consist of reaching a map point from a starting point, each possible action is going to be a movement. These movements will be chosen depending on the map type of terrain distribution (each of the terrains has a specific cost). <b>Our goal is to reduce this cost</b>.
 
-The maps possible terrains are: <b>Grass (".")</b>, <b>Sand ("S")</b>, <b>Trees ("T")</b>, <b>Water ("W")</b>, <b>Walls ("@")</b>.
+The maps <b>possible terrains</b> are: Grass <b>(".")</b>, Sand <b>("S")</b>, Trees <b>("T")</b>, Water <b>("W")</b>, Walls <b>("@")</b>.
+
+The set of <b>posible moves</b> are: <i>UP, DOWN, LEFT, RIGHT, UP-LEFT, UP-RIGHT, DOWN-LEFT, DOWN-RIGHT</i>.
 
 ## What is in the repository?
 Project contents are divided into 3 different folders: <i>libs</i>, <i>maps</i> and <i>src</i>.
@@ -33,7 +35,7 @@ Finally, in order to execute the program we need to pass <b>5 different paramete
 
 <b>A) Path to the map.</b><br>
 <b>B) Search algorithm:</b> <a href=https://en.wikipedia.org/wiki/A*_search_algorithm><i>Astar</i></a>, <a href=https://en.wikipedia.org/wiki/Best-first_search><i>GBFS</i></a>, <a href=https://en.wikipedia.org/wiki/Breadth-first_search><i>Breadth</i></a> or <a href=https://en.wikipedia.org/wiki/Depth-first_search><i>Depth</i></a>.<br>
-<b>C) Heuristic:</b> <i>Manhattan</i>, <i>Euclidean</i> or <i>Chebyshev</i>.<br>
+<b>C) Heuristic:</b> <i>Manhattan</i>, <i>Euclidean</i> or <i>Chebyshev</i>. <a href=http://theory.stanford.edu/~amitp/GameProgramming/Heuristics.html>(Info)</a><br>
 <b>D) Initial position.</b> Format: <i>PositionX-PositionY</i><br>
 <b>E) Final position.</b> Format: <i>PositionX-PositionY</i>
 
@@ -46,4 +48,3 @@ $ java -cp .:../libs/aima-core.jar Execute ../maps/riverrun.map Astar Manhattan 
 
 ## Requirements:
 This implementation is designed to work in any system with almost any version of <a href=http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html>Java JDK</a> installed.
-
