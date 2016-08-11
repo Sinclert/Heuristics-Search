@@ -9,7 +9,7 @@ As our search problem is going to consist of reaching a map point from a startin
 
 The maps <b>possible terrains</b> are: Grass <b>(".")</b>, Sand <b>("S")</b>, Trees <b>("T")</b>, Water <b>("W")</b>, Walls <b>("@")</b>.
 
-The set of <b>posible moves</b> are: <i>UP, DOWN, LEFT, RIGHT, UP-LEFT, UP-RIGHT, DOWN-LEFT, DOWN-RIGHT</i>.
+The set of <b>possible moves</b> are: <i>UP, DOWN, LEFT, RIGHT, UP-LEFT, UP-RIGHT, DOWN-LEFT, DOWN-RIGHT</i>.
 
 ## What is in the repository?
 Project contents are divided into 3 different folders: <i>libs</i>, <i>maps</i> and <i>src</i>.
