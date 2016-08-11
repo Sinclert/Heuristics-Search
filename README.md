@@ -1,6 +1,6 @@
 # Heuristic Search
 
-<a href=https://en.wikipedia.org/wiki/Heuristic_(computer_science)>Heuristic search</a> is a type of search in which we do not have total information about the problem space, but still we can came up with a valid solution, or in the best cases, an optimal solution. This type of search uses <b>heuristic functions</b> in order to evaluate the different possible actions and select the best one (lower cost).<br>
+<a href=https://en.wikipedia.org/wiki/Heuristic_(computer_science)>Heuristic search</a> is a type of search in which we do not have total information about the problem space, but still we can came up with a valid solution, or in the best cases, an optimal solution. This type of search uses <a href=http://theory.stanford.edu/~amitp/GameProgramming/Heuristics.html><b>heuristic functions</b></a> in order to evaluate the different possible actions and select the best one (lower cost).<br>
 <br>
 In this particular case, the search will be applied to some Warcraft 3 maps written in .txt files.
 
@@ -35,7 +35,7 @@ Finally, in order to execute the program we need to pass <b>5 different paramete
 
 <b>A) Path to the map.</b><br>
 <b>B) Search algorithm:</b> <a href=https://en.wikipedia.org/wiki/A*_search_algorithm><i>Astar</i></a>, <a href=https://en.wikipedia.org/wiki/Best-first_search><i>GBFS</i></a>, <a href=https://en.wikipedia.org/wiki/Breadth-first_search><i>Breadth</i></a> or <a href=https://en.wikipedia.org/wiki/Depth-first_search><i>Depth</i></a>.<br>
-<b>C) Heuristic:</b> <i>Manhattan</i>, <i>Euclidean</i> or <i>Chebyshev</i>. <a href=http://theory.stanford.edu/~amitp/GameProgramming/Heuristics.html>(Info)</a><br>
+<b>C) Heuristic:</b> <i>Manhattan</i>, <i>Euclidean</i> or <i>Chebyshev</i>.<br>
 <b>D) Initial position.</b> Format: <i>PositionX-PositionY</i><br>
 <b>E) Final position.</b> Format: <i>PositionX-PositionY</i>
 
